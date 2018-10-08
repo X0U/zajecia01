@@ -10,7 +10,7 @@ public class SquareRoots {
         this.c = c;
     }
     public ArrayList<Float> root(float a, float b, float c){
-        float delta = b * b - (float)Math.sqrt(4 * a * c);
+        float delta = (float)Math.sqrt(b * b - 4 * a * c);
         float res1 = (-b + delta) / 2 * a;
         float res2 = (-b - delta) / 2 * a;
         ArrayList <Float> roots = new ArrayList<>();
